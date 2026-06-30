@@ -80,20 +80,25 @@ Ví dụ: Khoảng cách thực là 50 mm mà sensor đọc ra 47mm hoặc 53m
 ---
 ### 4.1.2. CÁCH GIẢI QUYẾT
 
-**B1.** Chọn 2 khoảng cách chuẩn 
+**B1.** Chọn 2 khoảng cách chuẩn
+
 **B2.** Đo giá trị thô của cảm biến tại mỗi khoảng cách.
+
 **B3.** Lập hệ phương trình từ 2 cặp giá trị đo
+
 **B4.** Giải hệ phương trình để tìm hai hệ số:
 - a: hệ số scale (gain)
 - b: hệ số offset
 
 **B5.** Cập nhật công thức tính khoảng cách trong chương trình
+
 **B6.** Kiểm tra lại ở một hoặc nhiều khoảng cách khác để đánh giá độ chính xác.
 
 ---
 ### 4.1.3. VÍ DỤ
 
 **B1.** Đặt vật cản ở 2 khoảng cách chuẩn (ví dụ: 50 mm và 150 mm).
+
 **B2.** Đọc giá trị thô từ cảm biến tại mỗi khoảng cách.
 - 50 mm → cảm biến đọc 47 mm
 - 150 mm → cảm biến đọc 154 mm
