@@ -33,6 +33,7 @@ motorR.movePWM(0);
 - Dùng để biết robot đã đi bao xa hoặc quay bao nhiêu góc.
 
 ## 3.2. Đọc encoder
+
 ```cpp
 // đặt lại bộ đếm về 0
 motorL.resetTicks(); 
@@ -42,6 +43,7 @@ motorR.resetTicks();
 Serial.println(motorL.getTicks());
 Serial.println(motorR.getTicks());
 ```
+
 - resetTicks() đặt lại bộ đếm về 0 — thường gọi trước mỗi hành động mới để đo chính xác.
     - Nếu không reset, robot vừa đi thẳng xong rồi quẹo, ticks sẽ cộng dồn từ lần đi thẳng → đo góc quẹo sai.
 # 4. Đọc cảm biến & calibration
