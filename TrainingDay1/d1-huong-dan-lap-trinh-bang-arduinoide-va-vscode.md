@@ -8,9 +8,6 @@ title: Hướng dẫn lập trình Arduino bằng Arduino IDE và VS Code
 > Đây là cách lập trình truyền thống của Arduino. Nếu bạn mới bắt đầu học Arduino hoặc chỉ muốn thử nghiệm nhanh, Arduino IDE là một lựa chọn đơn giản và dễ sử dụng.
 
 ---
-[TOC]
-
----
 # Arduino ide
 
 ## 1. Cài đặt Arduino IDE
