@@ -1,4 +1,7 @@
 # MM26OL-D1-TRAINING
+## 🔗 VIDEO BÀI GIẢNG TRAINING DAY1
+**Link xem lại:** https://youtu.be/XCmXobt3A4E
+
 ## 📚 TÀI LIỆU HƯỚNG DẪN DỰ ÁN
 Để đảm bảo nắm vững kiến thức, vui lòng đọc và thực hành theo đúng thứ tự các bước dưới đây:
 
