@@ -4,6 +4,7 @@ title: D1 Training
 ---
 
 *Để đảm bảo tiến độ, các bạn vui lòng lưu ý thực hiện các yêu cầu theo hướng dẫn sau:*
+
     *- Cài đặt môi trường mục 2.1.*
     *- Hoàn thành 3 bài tập tại mục 2.2. (LED, Button, Serial).*
     *- Đọc hiểu kỹ tài liệu setup Micromouse tại mục 2.3.*
