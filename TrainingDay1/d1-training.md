@@ -238,9 +238,9 @@ void loop() {
 }
 ```
 **Kết quả:**
-- Mở Serial Monitor (chọn baudrate 115200) 
-→ thấy lời chào "XIN CHAO! Day la board ESP32-S3...". Nhập tên vào ô phía trên rồi nhấn Enter 
-→ board phản hồi lại "Chào em [tên]! Chúc em có một bài học lập trình thật vui!" kèm số ký tự trong tên.
+- Mở Serial Monitor (chọn baudrate 115200)   
+→ thấy lời chào "XIN CHAO! Day la board ESP32-S3...". Nhập tên vào ô phía trên rồi nhấn Enter  
+→ board phản hồi lại "Chào em [tên]! Chúc em có một bài học lập trình thật vui!" kèm số ký tự trong tên. 
 
 ## 3. TÀI LIỆU SETUP MICROMOUSE
 **Link tài liệu:** [Tài liệu Setup Micromouse](d1-setupmouse.md)
