@@ -3,22 +3,17 @@ title: D1 Training
 
 ---
 
-*Để đảm bảo tiến độ, các bạn vui lòng lưu ý thực hiện theo hướng dẫn sau:*
-- *Video bài giảng (Mục 1): Các bạn có thể xem lại để củng cố kiến thức.*
-- *Yêu cầu bắt buộc:*
+*Để đảm bảo tiến độ, các bạn vui lòng lưu ý thực hiện các yêu cầu theo hướng dẫn sau:*
     *- Cài đặt môi trường mục 2.1.*
     *- Hoàn thành 3 bài tập tại mục 2.2. (LED, Button, Serial).*
     *- Đọc hiểu kỹ tài liệu setup Micromouse tại mục 2.3.*
 
 
-# 1. VIDEO BÀI GIẢNG TRAINING D1
-**Link xem lại:** https://youtu.be/XCmXobt3A4E
-
-# 2. NỘI DUNG CẦN CHUẨN BỊ CHO BUỔI TRAINING TIẾP THEO
-## 2.1. Cài đặt môi trường
+# NỘI DUNG CẦN CHUẨN BỊ CHO BUỔI TRAINING TIẾP THEO
+## 1. Cài đặt môi trường
 - Hướng dẫn lập trình bằng Arduino IDE và VSCode: [Hướng dẫn lập trình bằng Arduino IDE và VSCode](d1-huong-dan-lap-trinh-bang-arduinoide-va-vscode.md)
 - Bạn có thể chọn sử dụng một trong hai công cụ trên.
-### 2.1.1 Cài board esp32 (Arduino IDE)
+### 1.1 Cài board esp32 (Arduino IDE)
 1. File → Preferences
 2. Tại **Additional Boards Manager URLs**, thêm:
 3. [https://espressif.github.io/arduino-esp32/package\_esp32\_index.json](https://espressif.github.io/arduino-esp32/package_esp32_index.json)
@@ -27,7 +22,7 @@ title: D1 Training
 6. Cài đặt **esp32 by Espressif Systems**.
 7. Sau khi cài xong, chọn board **ESP32S3**.
 
-### 2.1.2 Cài board esp32 (Visual Studio Code)
+### 1.2 Cài board esp32 (Visual Studio Code)
 1. Vào **Extension** (Ctrl + Shift + X) →  cài **PlatformIO, Serial Monitor**
 2. **PlatformIO → New Project**
 3. Board: **Espressif ESP32-S3-DevKitM-1**
@@ -53,13 +48,13 @@ build_flags =
 8. Bấm **Upload** (Ctrl + Alt + U) (nút phía trên bên phải) để nạp code.
 9. **Ctrl + Shift + P → Chat: Focus on Serial Monitor View** để xem Serial Monitor
 
-### 2.1.3 Thư viện cần cài đặt
+### 1.3 Thư viện cần cài đặt
 - **Adafruit VL53L0X**: Thư viện điều khiển cảm biến khoảng cách bằng laser (ToF). Giúp robot đo chính xác khoảng cách đến tường theo đơn vị mm, ít bị sai số bởi màu sắc hay ánh sáng môi trường.
 - **Adafruit NeoPixel**: Thư viện điều khiển LED màu (RGB đơn dây). Dùng để đổi màu sắc hệ thống LED trên robot nhằm báo hiệu các trạng thái (đang dò đường, đã tìm thấy đích, hoặc báo lỗi).
 - **PCF8574**: Thư viện quản lý IC mở rộng chân giao tiếp I2C. Giúp robot tiết kiệm chân phần cứng của ESP32S3 mà vẫn bật/tắt và điều khiển được nhiều ngoại vi khác.
 - **ESP32Encoder**: Thư viện cấu hình bộ đếm xung phần cứng (PCNT) của ESP32. Giúp ghi nhận chính xác từng "tick" quay của bánh xe ở tốc độ cao mà không làm nặng CPU, đảm bảo robot đo khoảng cách và góc rẽ không bị sai lệch.
 
-## 2.2. BÀI TẬP
+## 2. BÀI TẬP
 ### Bài 1. LED
 LED NeoPixel **dùng để debug trực quan** — biết robot đang làm gì mà không cần cáp hay màn hình. Ví dụ: xanh = đang chạy, đỏ = lỗi, vàng = chờ. Màu thể hiện điều gì là do bạn tự quyết định trong code.
 
@@ -246,5 +241,5 @@ void loop() {
 → thấy lời chào "XIN CHAO! Day la board ESP32-S3...". Nhập tên vào ô phía trên rồi nhấn Enter 
 → board phản hồi lại "Chào em [tên]! Chúc em có một bài học lập trình thật vui!" kèm số ký tự trong tên.
 
-## 2.3. TÀI LIỆU SETUP MICROMOUSE
+## 3. TÀI LIỆU SETUP MICROMOUSE
 **Link tài liệu:** [Tài liệu Setup Micromouse](d1-setupmouse.md)
