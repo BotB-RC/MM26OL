@@ -6,8 +6,8 @@
 Để theo kịp buổi học tới, các bạn hãy dành thời gian nghiên cứu kỹ tài liệu này nhé.
 
 ### 1. Thuật toán Floodfill + Simulation
-* 👉 **[Bấm vào đây để đọc: d2-thuat-toan-floodfill-simulation](d2-thuat-toan-floodfill-simulatiod2-thuat-toan-floodfill-.md)**
+* 👉 **[Bấm vào đây để đọc: d2-thuat-toan-floodfill-simulation](d2-thuat-toan-floodfill-simulation.md)**
 
 ### 2. PID
-* 👉 **[Bấm vào đây để đọc: d2-PID](d1-PID.md)**
+* 👉 **[Bấm vào đây để đọc: d2-PID](d2-PID.md)**
 
