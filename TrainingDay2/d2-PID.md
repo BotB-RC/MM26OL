@@ -1,9 +1,4 @@
----
-title: hello
-
----
-
-# HƯỚNG DẪN ĐIỀU KHIỂN MICROMOUSE: ENCODER, CẢM BIẾN TƯỜNG VÀ PI
+# HƯỚNG DẪN ĐIỀU KHIỂN MICROMOUSE: ENCODER, CẢM BIẾN TƯỜNG VÀ PID
 
 ## 1. Bản chất của Encoder trong Micromouse
 
