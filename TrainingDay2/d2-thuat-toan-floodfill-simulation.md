@@ -1,14 +1,6 @@
----
-title: Thuật toán Floodfill
-
----
-
 # Thuật toán Flood Fill
 
 > Thuật toán tìm đường được sử dụng phổ biến trong Micromouse.
----
-[TOC]
-
 ---
 
 # Khái quát thuật toán Flood Fill
@@ -170,12 +162,8 @@ Nhấn **Build & Run** để chạy simulator.
 
 ---
 # Video giả lập thuật toán
-<iframe
-    src="https://drive.google.com/file/d/1WgLowixIZCv5VtUHNwRQdTUT0oVqCcj9/preview"
-    width="640"
-    height="480"
-    allow="autoplay">
-</iframe>
+
+LINK: [**VIDEO GIẢ LẬP THUẬT TOÁN**](https://drive.google.com/file/d/1WgLowixIZCv5VtUHNwRQdTUT0oVqCcj9/view)
 
 # Code tham khảo
 :::spoiler code
@@ -430,10 +418,12 @@ int main()
     
     cerr << "Mission complete!" << endl;
     return 0;
-}```
-:::
-***lưu ý***
+}
+```
+
+***Lưu ý***
 * Code tham khảo chỉ phù hợp cho simulation (test code) trước khi nạp vào mouse. Các hàm API phải được thay bằng các hàm tương ứng.
 ---
 # Video tham khảo
-https://www.youtube.com/watch?v=Zwh-QNlsurI
+**LINK:** https://www.youtube.com/watch?v=Zwh-QNlsurI
+[![Nhấn vào để xem video Dynamic Programming / Flood Fill Algorithm](https://img.youtube.com/vi/Zwh-QNlsurI/0.jpg)](https://www.youtube.com/watch?v=Zwh-QNlsurI)
